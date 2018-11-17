@@ -1,0 +1,224 @@
+html, body{
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #207cca 25%, #2989d8 50%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 25%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#207cca 25%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */    
+min-height: 100vh;
+background-repeat: no-repeat;
+font-family: 'Ubuntu', sans-serif;
+}
+div#wrapper {
+    max-width: 1100px;
+    margin: auto;
+    display: block;
+    background: #b9defb;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 25px 0px;
+}
+ul#menu {
+    display: table;
+    list-style: none;
+	width: 100%;
+    text-align: center;
+    vertical-align: middle;
+	margin: auto;
+    padding: 20px 0;;
+}
+ul#menu li {
+    display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+	padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+	background: rgba(255, 255, 255, 0.25);
+	transition: background .5s linear;
+	text-transform: uppercase;
+	letter-spacing: 2px;	
+	font-family: 'Ubuntu', sans-serif;
+}
+ul#menu li:hover, ul#menu li.active {
+    background: #fff;
+    transition: background .5s linear;
+}
+ul#menu li a {
+    text-decoration: none;
+    font-weight: 600;
+	color: #3992db;
+}
+div#catSel {
+    max-width: 900px;
+    margin: auto;
+	text-align: center;
+}
+div.catSelImg {
+    display: inline-block;
+    max-width: 49%;
+}
+div.catSelImg img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+	filter: grayscale(1) blur(5px);
+	transition:filter .5s linear;
+}
+div.catSelImg img:hover {
+	filter: grayscale(0) blur(0px);
+	transition:filter .5s linear;
+}
+h2.catSelText {
+    text-transform: uppercase;
+    font-family: ubuntu;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.catSelTitle {
+    display: block;
+    background: white;
+    padding: 2px;
+    border-radius: 150px 20px;
+    border: 5px solid #3992db;
+	transition: text-shadow .3s;
+}
+h2.catSelText:hover {
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    transition: text-shadow .3s;
+}
+footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+footer a{
+	text-decoration:none;
+	color: #fff;
+}
+div#logo {
+    text-align: center;
+    max-height: 50px;
+}
+div#logo img {
+    height: 50px;
+}
+iv#bottom {
+    width: 100%;
+}
+.bottomCol {
+    display: inline-block;
+    width: 33%;
+}
+.bottomCol h3 {
+    text-align: center;
+}
+div#bottom {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px 0;
+    margin-top: 20px;
+    border: 2px solid #fff;
+}
+.gal {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    display: inline-block;
+}
+
+.gal:hover {
+    border: 1px solid #777;
+}
+
+.gal img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+label {
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: "Ubuntu";
+    font-weight: 600;
+}
+input, textarea {
+    border: 2px solid #1e589a;
+    padding: 5px;
+    font-size: 16px;
+    width: 250px;
+}
+input[type="submit"] {
+    font-size: 20px;
+    margin-top: 10px;
+    width: 264px!important;
+    display: block;
+    padding: 10px 0;
+    background: #1e589a;
+    color: #fff;
+}
+div#map {
+    display: inline-block;
+    padding: 0 20px;
+}
+div#formularz {
+    display: inline-block;
+}
+.columns {
+    display: inline-block;
+    width: 31.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+li.grey:last-child {
+    padding: 20px 0;
+}
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
