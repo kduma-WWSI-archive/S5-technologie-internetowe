@@ -42,9 +42,9 @@ CREATE TABLE wypozyczenia
 (
     id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     pojazd_id INT NOT NULL,
-    imie VARCHAR(255) NOT NULL,
-    nazwisko VARCHAR(255) NOT NULL,
-    telefon VARCHAR(255) NOT NULL,
+    imie VARCHAR(15) NOT NULL,
+    nazwisko VARCHAR(30) NOT NULL,
+    telefon VARCHAR(9) NOT NULL,
     od DATE NOT NULL,
     do DATE NOT NULL,
     
@@ -63,7 +63,7 @@ END_SQL;
         ['Limuzyna', null, 3, 2000, '300C', 'Chrysler', 2017, 'chrysler300Ca.jpg', serialize(['Kierowca w cenie' => 'TAK', '10 osobowy', 'długość: 8.7 metrów', '1 bar, skórzana tapicerka', 'Kaucja zwrotna' => '5000 PLN'])],
         ['Limuzyna', null, 2, 1300, '70', 'Lincoln', 2010, 'lincoln70.jpg', serialize(['Kierowca w cenie' => 'NIE', '6 osobowy', 'długość: 8 metrów', '1 bar, skórzana tapicerka', 'Kaucja zwrotna' => '5000 PLN'])],
 
-        ['Kamper', 'Basic', 3, 450, 'CARA COMPACT 600 MEG', 'KNAUS WEINSBERG PEPPER / PEUGEOT PÓŁINTERGRA', 2017, 'camper3.jpg', serialize(['"Całoroczny"  + bagażnik rowerowy', 'Klimatyzacja postojowa' => 'NIE', 'Kat. "B",   DMC 3500 kg', '3/4 osobowy', 'Manualna 6 biegowa skrzynia', '674/220/276 cm dł./szer./wys. zewn.', 'Kaucja zwrotna' => '5000 PLN', 'Opłata serwisowa' => '350 PLN'])],
+        ['Kamper', 'Basic', 3, 450, 'CARA COMPACT 600 MEG', 'KNAUS WEINSBERG PEPPER', 2017, 'camper3.jpg', serialize(['"Całoroczny"  + bagażnik rowerowy', 'Klimatyzacja postojowa' => 'NIE', 'Kat. "B",   DMC 3500 kg', '3/4 osobowy', 'Manualna 6 biegowa skrzynia', '674/220/276 cm dł./szer./wys. zewn.', 'Kaucja zwrotna' => '5000 PLN', 'Opłata serwisowa' => '350 PLN'])],
         ['Kamper', 'Pro', 2, 500, 'Globe-Traveller', 'Active ZS / PEUGEOT 2, 0 / 163 KM', 2018, 'camper2.jpg', serialize(['Całoroczny', 'Klimatyzacja postojowa' => 'NIE', 'Kat. "B",   DMC 3500 kg', '3/4 osobowy', 'Manualna 6 biegowa skrzynia', '599/206/256 cm dł./szer./wys. zewn.', 'Kaucja zwrotna' => '5000 PLN', 'Opłata serwisowa' => '350 PLN'])],
         ['Kamper', 'Premium', 1, 950, 'Aristeo 694', 'BENIMAR / FIAT DUCATO INTEGRA', 2017, 'camper1.jpg', serialize(['Całoroczny', 'Klimatyzacja postojowa' => 'TAK', 'Kat. "B",   DMC 3500 kg', '4 osobowy', 'Automatyczna skrzynia biegów', '738/234/289 cm dł./szer./wys. zewn..', 'Kaucja zwrotna' => '5000 PLN', 'Opłata serwisowa' => '350 PLN'])],
         ['Kamper', null, 8, 900, 'K-YACHT MH89TL', 'MOBILVETTA / FIAT DUCATO INTEGRA', 2016, 'camper8.jpg', serialize(['Całoroczny', 'Klimatyzacja postojowa' => 'TAK', 'Kat. "B",   DMC 3500 kg', '4 osobowy', 'Manualna 6 biegowa skrzynia', '738/232/289 cm dł./szer./wys. zewn.', 'Kaucja zwrotna' => '5000 PLN', 'Opłata serwisowa' => '350 PLN'])],

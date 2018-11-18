@@ -147,7 +147,7 @@ label {
     font-family: "Ubuntu";
     font-weight: 600;
 }
-input, textarea {
+input, textarea, select#rodzaj {
     border: 2px solid #1e589a;
     padding: 5px;
     font-size: 16px;
@@ -221,4 +221,77 @@ li.grey:last-child {
     .columns {
         width: 100%;
     }
+}
+div#wyszukiwarka {
+    max-width: 200px;
+    background: #1e5a9e;
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 99px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: -41px;
+}
+div#wyszukiwarka  a{
+	color: #fff;
+	text-decoration:none;
+}
+div#map {
+    display: inline-block;
+    max-width: 500px;
+}
+form#formularz {
+    max-width: 400px;
+    display: inline-block;
+}
+
+
+
+div#data  table{
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top:20px;
+}
+div#data  table td, div#data  table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+div#data table tbody td {
+    font-size: 16px;
+    padding: 5px;
+}
+div#data table tbody td:first-child {
+    text-align: center;
+    font-weight: 800;
+}
+div#data table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+div#data table thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+div#data table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+div#data table thead th:first-child {
+  border-left: none;
+}
+div#search button {
+    background: #1e5a9e;
+    border: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: #fff;
 }

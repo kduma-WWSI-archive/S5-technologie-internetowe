@@ -21,7 +21,7 @@
             </div>
 
             <div>
-                <label for="password">Hało</label>
+                <label for="password">Hasło</label>
                 <input type="password" id="password" name="password" placeholder="Hało Bazy Danych" value="<?=$_POST['password'] ?? 'secret'?>">
             </div>
 

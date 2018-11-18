@@ -1,4 +1,3 @@
-<a href="?p=lista-pojazdow">Pełna lista pojazdów</a>
 <div id="content">
     <?php foreach ($lista_pojazdow as $pojazd):?>
         <div class="columns">

@@ -15,17 +15,17 @@
 
         <div>
             <label for="telefon">Telefon</label>
-            <input type="text" id="telefon" name="telefon" placeholder="Telefon" value="<?=$_POST['telefon'] ?? ''?>">
+            <input type="tel" id="telefon" name="telefon" placeholder="Telefon" value="<?=$_POST['telefon'] ?? ''?>">
         </div>
 
         <div>
             <label for="od">Rezerwacja od</label>
-            <input type="text" id="od" name="od" placeholder="Rezerwacja od" value="<?=$_POST['od'] ?? date('Y-m-d')?>">
+            <input type="date" id="od" name="od" placeholder="Rezerwacja od" value="<?=$_POST['od'] ?? date('Y-m-d')?>">
         </div>
 
         <div>
             <label for="do">Rezerwacja do</label>
-            <input type="text" id="do" name="do" placeholder="Rezerwacja do" value="<?=$_POST['do'] ?? date('Y-m-d', strtotime('+1 day'))?>">
+            <input type="date" id="do" name="do" placeholder="Rezerwacja do" value="<?=$_POST['do'] ?? date('Y-m-d', strtotime('+1 day'))?>">
         </div>
 
 

@@ -30,6 +30,6 @@
 </head>
 <body>
 <div id="wrapper">
-    <diV id="logo"><a href="/"><img src="img/logo.svg" /></a></div>
+    <diV id="logo"><a href="/"><img src="img/logo.svg" /></a></div><div id="wyszukiwarka"><a href="?p=lista-pojazdow">Wyszukiwarka</a></div>
     <nav><ul id="menu"><li<?=$akcja=='index' ? ' class="active"' : '' ?>><a href="?">Home</a></li><li<?=$akcja=='o-firmie' ? ' class="active"' : '' ?>><a href="?p=o-firmie">O firmie</a></li><li<?=$akcja=='pojazdy' && $pojazd=='kamper' ? ' class="active"' : '' ?>><a href="?p=pojazdy&pojazd=kamper">Campery</a></li><li<?=$akcja=='pojazdy' && $pojazd=='limuzyna' ? ' class="active"' : '' ?>><a href="?p=pojazdy&pojazd=limuzyna">Limuzyny</a></li><li<?=$akcja=='galeria' ? ' class="active"' : '' ?>><a href="?p=galeria">Galeria</a></li><li<?=$akcja=='kontakt' ? ' class="active"' : '' ?>><a href="?p=kontakt">Kontakt</a></li></ul></nav>
     <div id="content">
